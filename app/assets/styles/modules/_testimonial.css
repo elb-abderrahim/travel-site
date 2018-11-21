@@ -1,10 +1,17 @@
 .testimonial {
     background: rgba(255, 255, 255, .8);
     padding: 0 18px 1px 18px;
+    margin-bottom: 98px;
 
-    @mixin atMedium{
+    @mixin atLarge{
+        margin-bottom: 0;
         padding: 0 1.8125rem 1px 1.8125rem;
     }
+
+    &--last {
+        margin-bottom: 0;
+    }
+
     &__photo {
         width: 160px;
         height: 160px;
